@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Validointi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body background="bartboi.jpg">
+        <h1>Lomakkeen validointi HTML5</h1>
+
+        <form>
+
+                First name:<br>
+                <input type="text" name="firstname" required><br>
+                Last name:<br>
+                <input type="text" name="lastname" required><br>
+                E-Mail:<br>
+                <input type="email" name="email" required placeholder="eg.: name@gmail.com"><br>
+                Phone Number:<br>
+                <input type="tel" name="Number" placeholder="e.g: +358 45 205 3947"><br>
+                Address:<br>
+                <input type="text" name="Address"><br>
+                Zip-Code:<br>
+                <input type="text" name="Zip" pattern="^[0-9]{5}$"><br>
+                Password:<br>
+                <input type="password" name="Password" required><br>
+            <p> </p>
+                <input type="Submit" name="Submit">
+        </form>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
